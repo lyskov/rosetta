@@ -135,5 +135,3 @@ To obtain the contents of submodules which aren't currently cloned:
 or if you want to get all the submodules
 
     git submodule update --init --recursive
-
-x

@@ -125,7 +125,7 @@ Additional information is located in submodules:
 * rosetta/PyRosetta.notebooks -- https://github.com/RosettaCommons/PyRosetta.notebooks -- Example Jupyter notebooks using PyRosetta.
 * rosetta/source/external/... -- Various 'venderized' external dependencies
 
-The default clone does not pull down submodules, leaving an empty directory. 
+The default clone does not pull down submodules, leaving an empty directory.
 The compilation script will automatically clone the submodules needed for compilation, but not others.
 To obtain the contents of submodules which aren't currently cloned:
 

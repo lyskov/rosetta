@@ -21,16 +21,16 @@ Contributor Licensing Agreement
 
 To maintain RosettaCommons's ability to license Rosetta commercially, we ask that people sign a Contributor Licensing Agreement (CLA). (See CLA.md for the current text)
 
-Please read and make sure you understand the agreement prior to signing, as it is a legal agreement. 
+Please read and make sure you understand the agreement prior to signing, as it is a legal agreement.
 You only have to sign it once, as it will apply to all the contributions you submit to the RosettaCommons as PRs.
 
-If you are making contributions as an employee (which includes employees and graduate students of academic institutions), you may have assigned rights for code you develop to your employer. 
+If you are making contributions as an employee (which includes employees and graduate students of academic institutions), you may have assigned rights for code you develop to your employer.
 In that case, please confirm with your employer that you are authorized to sign the CLA on their behalf.
 If you change employers, please re-sign the agreement with your new employer's information.
 
 To sign the CLA, please visit <https://www.rosettacommons.org/forms/cla>.
 
-If you are a member of a RosettaCommons lab, there is a separate Developers Agreement process. 
+If you are a member of a RosettaCommons lab, there is a separate Developers Agreement process.
 Please consult an existing member of the lab or your PI for details.
 
 Submodules
@@ -47,14 +47,14 @@ Contributing FAQ
 
 Q. *Why don't you use the OpenSource-standard "inbound=outbound" model for licensing?*
 
-A. To support RosettaCommons's ability to maintain Rosetta, the RosettaCommons currently charges a fee for commercial usage. 
+A. To support RosettaCommons's ability to maintain Rosetta, the RosettaCommons currently charges a fee for commercial usage.
 All profits from the sale of Rosetta go toward supporting the scientific mission of the RosettaCommons.
 At the moment, we currently don't see a way to go officially (OSI) Open Source while keeping the same level of support.
 As a consequence, the Rosetta license is written in a way which privleges the RosettaCommons and their ability to charge a commercial license fee.
 However, licensing inbound contributions under that same license would result in an incompatible mess, particularly if we ever attempted to change the license in the future.
 
 As such, the current code base is licensed under the existing licensing framework, but we ask new contributions to be submitted under more permissive terms, to allow flexibilty for future license changes.
- 
+
 Q. *Can I use the Rosetta code in my own software?*
 
 Use of Rosetta code in other projects is governed by the Rosetta license agreement. The combination of Rosetta with another program must maintain the Rosetta licensing terms for those portions which include Rosetta. In particular, use of Rosetta (or PyRosetta) as a library in another program does not negate the requirement for purchasing a separate Rosetta (and/or PyRosetta) license for commercial use of the combined program. Please contact UW CoMotion <license@uw.edu> with any questions about commercial licensing requirements for programs containing Rosetta code.
@@ -69,4 +69,3 @@ However, this only extends to your code in isolation. You may only distribute th
 Q. *Can I include external libraries into Rosetta?*
 
 Other libraries can be included/linked against Rosetta, provided they have a compatible license. MIT and OSI approved BSD licenses are known to be compatible. GPL and other such license with "share alike" provisions are not. Please open a Github issue to discuss details, as including an additional external library often has complexity issues over and above the licensing issues.
-
